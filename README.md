@@ -10,35 +10,35 @@ To complete this sample you need the following:
 ## Build the project
 To build, publish and generate the .exe file for solution project you need to execute the following commands:
 
-	```cs
-		dotnet restore
-		dotnet build
-		dotnet publish -c Release -r win10-x64
-	```
+```
+	dotnet restore
+	dotnet build
+	dotnet publish -c Release -r win10-x64
+```
 
 ## Execute the .exe file with commands
 After execute all the previous commands, you must situate within bin\Release\netcoreapp2.1\win10-x64 and execute the commands according your needs.
 First the .exe file, then the input.csv file that you want the console app read, after the parameters with their values.
 for example:
 
-	```cs
-		StudentsManagament.exe students.csv type=kinder
-	```
+```
+	StudentsManagament.exe students.csv type=kinder
+```
 
-	```cs
-		StudentsManagament.exe students.csv name=Luke
-	```
+```cs
+	StudentsManagament.exe students.csv name=Luke
+```
 
-	```cs
-		StudentsManagament.exe students.csv gender=M
-	```
+```cs
+	StudentsManagament.exe students.csv gender=M
+```
 
 Or by two parameters:
 
-	```cs
-		StudentsManagament.exe students.csv gender=M type=university
-	```
+```cs
+	StudentsManagament.exe students.csv gender=M type=university
+```
 
-	```cs
-		StudentsManagament.exe students.csv type=high gender=F
-	```
+```cs
+	StudentsManagament.exe students.csv type=high gender=F
+```
