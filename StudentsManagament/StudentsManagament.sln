@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentsManagament", "StudentsManagament\StudentsManagament.csproj", "{4770034D-FB8C-4279-B8F6-4FE7A9222947}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsManagement.Tests", "StudentsManagement.Tests\StudentsManagement.Tests.csproj", "{E226EF2A-3B64-4FF1-8A0D-20508A19B78E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentsManagament.Tests", "StudentsManagement.Tests\StudentsManagament.Tests.csproj", "{E226EF2A-3B64-4FF1-8A0D-20508A19B78E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
